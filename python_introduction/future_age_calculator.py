@@ -1,4 +1,4 @@
-current_age = input("How old are you? ")
+current_age = input("How old are you?")
 
-print ("In 2050, you will be ", (current_age + 27), " years old")
+print ("In 2050, you will be ", (27 + current_age), " years old")
 
