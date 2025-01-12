@@ -1,7 +1,8 @@
 # Check 1: Definition of display_menu function
 def display_menu():
     """Displays the main menu for the shopping list manager."""
-    print("\nShopping List Manager")
+    # Ensuring the exact required print statement
+    print("Shopping List Manager")
     print("1. Add Item")
     print("2. Remove Item")
     print("3. View List")
