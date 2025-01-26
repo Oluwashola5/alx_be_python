@@ -4,9 +4,9 @@ class Book:
         self.title = title
         self.author = author
 
-    def __del__(self):
-        """Destructor: Prints a message upon object deletion."""
-        print(f"Deleting '{self.title}'")
+    # def __del__(self):
+    #     """Destructor: Prints a message upon object deletion."""
+    #     print(f"Deleting '{self.title}'")
 
     def __str__(self):
         """String representation: For user-friendly output."""
