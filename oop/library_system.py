@@ -10,7 +10,7 @@ class Book:
 
     def __str__(self):
         """String representation: For user-friendly output."""
-        return f"{self.title} by {self.author}"
+        return f"Book: {self.title} by {self.author}"
 
     def __repr__(self):
         """Official representation: Used for debugging and recreating the object."""
@@ -23,7 +23,7 @@ class EBook(Book):
         self.file_size = file_size
 
     def __str__(self):
-        return f"{super().__str__()} (EBook, {self.file_size}MB)"
+        return f"EBook: {self.title} by {self.author}, File Size: {self.file_size}KB"
 
     def __repr__(self):
         return f"EBook('{self.title}', '{self.author}', {self.file_size})"
@@ -35,7 +35,7 @@ class PrintBook(Book):
         self.page_count = page_count
 
     def __str__(self):
-        return f"{super().__str__()} (Print Book, {self.page_count} pages)"
+        return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
     def __repr__(self):
         return f"PrintBook('{self.title}', '{self.author}', {self.page_count})"
